@@ -58,7 +58,7 @@ switch(month) {
     console.log("Tam ədəd daxil edin!");
 
  }else{
-    console.log(`${day.replace("0", (" "))} ${month_name} ${year} - ${article} il`);
+    console.log(`${day} ${month_name} ${year} - ${article} il`);
  }
 
 
