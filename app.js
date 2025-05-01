@@ -45,10 +45,9 @@ switch(month) {
         article = "";
  }
 
- if(year < 2000 ){
-    console.log(`İl 2000 ci ildən az ola bilməz`)
 
- }else if(month < 1 || month > 12){
+
+   if(month < 1 || month > 12){
     console.log(`Yanlış ay daxil etdiniz!`)
 
  } else if(day < 1 || day > 31){
